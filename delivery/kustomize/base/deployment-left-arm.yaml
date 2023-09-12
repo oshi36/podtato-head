@@ -9,7 +9,7 @@ metadata:
     app.kubernetes.io/version: '0.2.7'
     app.kubernetes.io/managed-by: kustomize
 spec:
-  replicas: 1
+  replicas: 2
   selector:
     matchLabels:
       app.kubernetes.io/name: podtato-head
